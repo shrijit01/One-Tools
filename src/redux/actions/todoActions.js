@@ -1,6 +1,4 @@
-
 // Action constants.
-
 export const ADD_TODO="ADD Todo";
 export const TOGGLE_TODO="Toggle Todo";
 

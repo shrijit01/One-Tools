@@ -20,7 +20,7 @@ function App() {
             <Route path="" element={<Home />}>
 
             </Route>
-            <Route path="todo"
+            <Route path="/todo"
               element={
                 <Fragment>
                   <NavBar />
@@ -31,7 +31,7 @@ function App() {
               }>
 
             </Route>
-            <Route path="notes"
+            <Route path="/notes"
               element={
                 <Fragment>
                   <NavBar />

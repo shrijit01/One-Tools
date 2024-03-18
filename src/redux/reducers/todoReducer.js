@@ -3,8 +3,8 @@ import { ADD_TODO, TOGGLE_TODO } from "../actions/todoActions";
 
 const initialState={
     todos:[
-        {text:"Go to Gym at 6", completed: false},
-        {text: "Study at 8", completed: true}
+        {text:"Fix The Bug", completed: false},
+        {text: "Code deployed", completed: true}
     ]
 }
 

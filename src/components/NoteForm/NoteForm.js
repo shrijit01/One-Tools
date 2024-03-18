@@ -1,7 +1,7 @@
-import { useState } from "react";
 import "./NoteForm.css";
-import { addNote } from "../../redux/actions/noteActions";
+import { useState } from "react";
 import { useDispatch } from "react-redux";
+import { addNote } from "../../redux/actions/noteActions";
 
 function NoteForm() {
   const [noteText, setNoteText] = useState("");
